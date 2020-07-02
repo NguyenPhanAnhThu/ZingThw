@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp">
+        <TextView
+            android:id="@+id/txtplaynhacindex"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="1"
+            android:textColor="#ffff"
+            android:textSize="17sp"/>
+        <TextView
+            android:id="@+id/txtplaynhactenbaihat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@id/txtplaynhacindex"
+            android:ellipsize="end"
+            android:maxWidth="255dp"
+            android:singleLine="true"
+            android:text="Ten ca khuc"
+            android:textColor="#ffff"
+            android:textSize="17dp"/>
+        <TextView
+            android:id="@+id/txtplaynhactencasi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txtplaynhactenbaihat"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@id/txtplaynhacindex"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:text="Ca si"
+            android:textColor="#ffff"
+            android:textSize="12sp"/>
+    </RelativeLayout>
+
+</RelativeLayout>

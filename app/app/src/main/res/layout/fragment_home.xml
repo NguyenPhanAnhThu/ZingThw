@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="none"
+    android:fillViewport="true">
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@+id/linearlayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <fragment
+            android:id="@+id/fragmentbanner"
+            android:name="com.example.zingthw.Fragment.BannerFragment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <fragment
+            android:id="@+id/fragmentplaylist"
+            android:name="com.example.zingthw.Fragment.PlaylistFragment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <fragment
+            android:id="@+id/fragmentchudevatheloai"
+            android:name="com.example.zingthw.Fragment.ChuDe_TheLoai_ToDay_Fragment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <fragment
+            android:id="@+id/fragmentalbumhot"
+            android:name="com.example.zingthw.Fragment.Album_Hot_Fragment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <fragment
+            android:id="@+id/fragmentbaihatyeuthich"
+            android:name="com.example.zingthw.Fragment.BaiHatYeuThichFragment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+</ScrollView>
